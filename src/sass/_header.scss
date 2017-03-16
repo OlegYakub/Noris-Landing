@@ -1,0 +1,42 @@
+
+header{
+
+}
+
+.header{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	padding-top: 28px;
+	padding-bottom: 30px;
+	-webkit-align-items: center;
+	align-items: center;
+	&__logo{
+
+		&--743{
+			display: none;
+		}
+
+		&--320{
+			display: none;
+		}
+	}
+
+	.btn{
+		max-width: 271px;
+	}
+
+	.p{
+		white-space: nowrap;
+		padding: 0 20px;
+		img{
+			position: relative;
+			top: 2px;
+			padding-right: 3px;
+		}
+	}
+	
+}
+	

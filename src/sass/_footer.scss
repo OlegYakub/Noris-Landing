@@ -1,0 +1,61 @@
+footer{
+	background-color: #f6f6f6;
+}
+
+.footer{
+	font-size: 14px;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	-webkit-align-items: center;
+	align-items: center;
+	color: #000000;
+	height: 210px;
+	line-height: 1.5;
+
+	&__left{
+		padding-right: 40px;
+	}
+
+	&__text{
+		width: 48%;
+		padding-right: 60px;
+	}
+
+	&__soc{
+		width: 70px;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		justify-content: space-between;
+	}
+
+	&__logo{
+		padding-bottom: 25px;
+	}
+
+	&__btn{
+			width: 30px;
+			height: 30px;
+			display: block;
+		}
+
+		.fb{
+			background-image: url("../img/fb.png");
+
+			&:hover{
+				background-image: url("../img/fb-h.png");				
+			}
+		}
+
+		.wk{
+			background-image: url("../img/vk.png");
+
+			&:hover{
+				background-image: url("../img/vk-h.png");				
+			}
+		}
+}
